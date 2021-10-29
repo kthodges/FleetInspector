@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-fleetinspector-dev-205924-authRole",
+      "UnauthRoleArn": "arn:aws:iam::349269719892:role/amplify-fleetinspector-dev-205924-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::349269719892:role/amplify-fleetinspector-dev-205924-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-fleetinspector-dev-205924-deployment",
+      "UnauthRoleName": "amplify-fleetinspector-dev-205924-unauthRole",
+      "StackName": "amplify-fleetinspector-dev-205924",
+      "StackId": "arn:aws:cloudformation:us-east-2:349269719892:stack/amplify-fleetinspector-dev-205924/77052670-3853-11ec-b7c8-022e9465c428",
+      "AmplifyAppId": "d3egyt50nml5re"
+    },
+    "categories": {
+      "auth": {
+        "fleetinspector997c97cd": {}
+      }
+    }
+  }
+}
