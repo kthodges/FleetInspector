@@ -1,14 +1,5 @@
-import {
-  Component, ChangeDetectorRef 
-} from '@angular/core';
-
-/* AWS AUTH */
-import {
-  onAuthUIStateChange,
-  CognitoUserInterface,
-  AuthState
-} from '@aws-amplify/ui-components';
-
+import { Component, ChangeDetectorRef } from '@angular/core';
+import { onAuthUIStateChange, CognitoUserInterface, AuthState } from '@aws-amplify/ui-components';
 
 @Component({
   selector: 'app-root',
@@ -16,13 +7,9 @@ import {
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'FleetInspector';
-
-  /* AWS AUTH */
+  title = 'amplify-angular-auth';
   user: CognitoUserInterface | undefined;
   authState!: AuthState;
-
-  /* AWS AUTH */
 
   constructor(private ref: ChangeDetectorRef) {}
 
@@ -37,5 +24,4 @@ export class AppComponent {
   ngOnDestroy() {
     return onAuthUIStateChange;
   }
-
 }

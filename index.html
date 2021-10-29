@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>FleetInspector</title>
@@ -7,14 +8,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
+
 <body>
-  
-    <div>
-      My App
-      <app-root></app-root>
-      
-    </div>
- 
-  
+
+  <div>
+    <amplify-authenticator>
+      <amplify-sign-in
+        header-text="My Custom Sign In Text"
+        slot="sign-in"
+      ></amplify-sign-in>
+    </amplify-authenticator>
+    <app-root></app-root>
+
+  </div>
+
+
 </body>
+
 </html>
